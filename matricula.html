@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matricula</title>
+    <link rel="stylesheet" href="matricula.css">
+</head>
+
+<body>
+    <header>
+        <div  ="contenedor1">
+            <h1>Matricula Abierta</h1>
+        <div class="botones">
+            <button>guardar</button>
+            <button>eliminar</button>
+            <button>lo que sea</button>
+        </div>
+        </div>
+        
+    </header>
+    <div id ="contenedor2">
+        <div class="nombre">
+            <p>nombre</p>
+            <input id ="nombre" class="nombre" type="text"> 
+            <button onclick = "crearPerfil()" id ="botonnumber" class="boton2" >agregar</button>
+        </div>
+        <div class="correo">    
+            <p>correo</p>
+            <input id ="correo" class="nombre" type="text">
+            
+        </div>
+        <div class="asignatura">
+            <p>asignatura</p>
+            <input id ="asignatura" class="nombre" type="text">
+            <button  onclick="agregarAsignatura()" class="boton2" >Agregar asignatura</button>
+            <button  onclick="Mostrar()" class="boton2" >Mostrar</button>
+    </div>
+    
+    
+    </div>
+    <br>
+    <div id="contenedor3">
+        <p>nombre : <span id ="resultadonombre"></span></p>
+        <p>correo : <span id ="correo2"></span></p>
+        <p>lista asignaturas: <span id="listaasignaturas"></span></p>
+    </div>
+    
+    
+    
+    
+    <script src="matricula.js"></script>
+</body>
+</html>

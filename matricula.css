@@ -1,0 +1,57 @@
+body{
+    
+}
+#contenedor1{
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin: 4px;
+    padding: 8px;
+    color:rgb(73, 71, 71);
+
+}
+button{
+    background-color: rgb(184, 214, 52);
+    border-radius: 10px;
+    padding: 8px;
+}
+button:hover{
+    box-shadow: 8px;
+    background-color: gray;
+}
+#contenedor2{
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin: 4px;
+    padding: 8px;
+    color:rgb(73, 71, 71);
+
+}
+#contenedor3{
+    border: 1px solid gray;
+    border-radius: 10px;
+    margin: 4px;
+    padding: 8px;
+    color:rgb(73, 71, 71);
+
+}
+.nombre{
+    display: flex;
+    margin: 10px;
+
+}
+.correo{
+    display: flex;
+    margin: 10px;
+
+}
+.asignatura{
+    display: flex;
+    margin: 10px;
+
+}
+button.boton2{
+    padding: 3px;
+    margin: 6px;
+    background-color: rgb(184, 214, 52);
+
+}
