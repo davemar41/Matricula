@@ -74,7 +74,7 @@ class Estudiante{
             document.getElementById('listaasignaturas').innerHTML=estudiante2.asignaturas;
         
        
-    }
+    }//modificacion
     
     
     
